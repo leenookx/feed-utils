@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{feed-utils}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["lnookx"]
-  s.date = %q{2009-09-08}
+  s.date = %q{2009-09-09}
   s.description = %q{RSS/ATOM feed manipulation utilities}
   s.email = %q{lnookx@googlemail.com}
   s.extra_rdoc_files = [
@@ -22,6 +22,8 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.rdoc",
      "Rakefile",
+     "VERSION",
+     "feed-utils.gemspec",
      "lib/feed-utils.rb",
      "test/feed-utils_test.rb",
      "test/test_helper.rb"
